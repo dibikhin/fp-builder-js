@@ -1,0 +1,25 @@
+{
+  "name": "fp-builder-js",
+  "version": "1.0.0",
+  "description": "Example of Builder pattern in functional style",
+  "scripts": {
+    "test": "mocha --recursive './**/*.spec.js'"
+  },
+  "keywords": [
+    "functional-programming",
+    "javascript",
+    "gof-patterns",
+    "builder-pattern"
+  ],
+  "author": "Roman Dibikhin <dibikhin@gmail.com> (https://github.com/dibikhin)",
+  "homepage": "https://github.com/dibikhin/fp-builder",
+  "repository": "github:dibikhin/fp-builder",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.1.2"
+  },
+  "dependencies": {
+    "ramda": "^0.27.0"
+  }
+}
