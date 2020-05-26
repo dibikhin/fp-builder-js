@@ -12,8 +12,8 @@
     "builder-pattern"
   ],
   "author": "Roman Dibikhin <dibikhin@gmail.com> (https://github.com/dibikhin)",
-  "homepage": "https://github.com/dibikhin/fp-builder",
-  "repository": "github:dibikhin/fp-builder",
+  "homepage": "https://github.com/dibikhin/fp-builder-js",
+  "repository": "github:dibikhin/fp-builder-js",
   "license": "MIT",
   "devDependencies": {
     "chai": "^4.2.0",

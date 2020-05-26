@@ -1,12 +1,11 @@
-# The Builder pattern in Functional style
+# The Builder pattern in functional style
 
 An example implementation of the GoF Builder pattern using Funcional Programming. Immutability achieved by sequential evolving frozen objects.
 
 ## Prerequisites
 - Node.js
 - NPM
-- Basic knowledge of Functional Programming
-- Basic knowledge of Ramda library
+- Basic knowledge of Functional Programming and Ramda library
 
 ## Installing
 
@@ -59,7 +58,7 @@ Thanks to:
 - Peter Norvig and Scott Wlaschin for inspiration
 
 ## Links
-- [The Builder Pattern in JavaScript](https://medium.com/better-programming/the-builder-pattern-in-javascript-6f3d85c3ae4a) - an article about some OOP version
+- [The Builder Pattern in JavaScript](https://medium.com/better-programming/the-builder-pattern-in-javascript-6f3d85c3ae4a) - an article about an OOP version
 - [Ramda](https://ramdajs.com) - A practical functional library for JavaScript programmers
 - [Mocha](https://mochajs.org) - A feature-rich JavaScript test framework 
 - [Chai](https://www.chaijs.com) - A BDD / TDD assertion library
