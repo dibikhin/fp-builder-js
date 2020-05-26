@@ -1,4 +1,4 @@
-# The Builder pattern in functional style
+# The Builder pattern in functional style on JavaScript
 
 An example implementation of the GoF Builder pattern using Funcional Programming. Immutability achieved by sequential evolving frozen objects.
 
