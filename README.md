@@ -12,20 +12,20 @@ An example implementation of the GoF Builder pattern using Funcional Programming
 ### Cloning
 
 ```bash
-> git clone https://github.com/dibikhin/fp-builder-js.git
+$ git clone https://github.com/dibikhin/fp-builder-js.git
 ```
 
 ### Setting up
 
 ```bash
-> cd fp-builder-js
-> npm install
+$ cd fp-builder-js
+$ npm install
 ```
 
 ## Running the tests
 
 ```bash
-> npm test
+$ npm test
 ```
 
 ## Usage
