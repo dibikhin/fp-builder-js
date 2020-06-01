@@ -6,7 +6,7 @@
 
 const {
   evolve,
-} = require("./genericEvolver")
+} = require('./generic_evolver')
 
 // For consistency
 const emptyMessage = Object.freeze({})
@@ -36,16 +36,6 @@ const withImageResolution = params => x => evolve({
   before: x,
   diff: makeImageResolution({ params }),
 })
-
-module.exports = {
-  emptyMessage,
-  withTitle,
-  withBody,
-  withPriority,
-  withImageUrl,
-  withImageResolution,
-  build,
-}
 
 /**
  * Sub-factories
@@ -91,4 +81,14 @@ function makeImageResolution({ params }) {
       },
     },
   })
+}
+
+module.exports = {
+  emptyMessage,
+  withTitle,
+  withBody,
+  withPriority,
+  withImageUrl,
+  withImageResolution,
+  build,
 }

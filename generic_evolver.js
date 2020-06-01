@@ -8,10 +8,6 @@ const {
   mergeDeepRight,
 } = require('ramda')
 
-module.exports = {
-  evolve,
-}
-
 /**
  * Evolves an object by merging with diff
  *
@@ -23,4 +19,8 @@ module.exports = {
 function evolve({ before, diff }) {
   const merged = mergeDeepRight(before, diff)
   return Object.freeze(merged)
+}
+
+module.exports = {
+  evolve,
 }

@@ -19,9 +19,9 @@ const {
   withImageUrl,
   withImageResolution,
   build,
-} = require('./messageBuilder')
+} = require('./message_builder')
 
-const expectedMessage = require('./expectedMessage')
+const expectedMessage = require('./expected_message')
 
 describe('FP Builder pattern', function () {
   it('should build complex objects', function () {

@@ -30,6 +30,8 @@ $ npm test
 
 ## Usage
 
+See the full example in `'./builder.spec.js'`.
+
 ```javascript
   const message = pipe(
     withTitle({ title: 'test title' }),
@@ -41,8 +43,6 @@ $ npm test
   )(emptyMessage)
 
 ```
-
-See the full example in `./builder.spec.js`
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
