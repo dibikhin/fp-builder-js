@@ -1,6 +1,6 @@
 # The Builder pattern in functional style on JavaScript
 
-An example implementation of the GoF Builder pattern using Funcional Programming. Immutability achieved by sequential evolving frozen objects.
+An example implementation of the GoF Builder pattern using Funcional Programming. Immutability achieved by sequential evolving of frozen objects.
 
 ## Prerequisites
 - Node.js
@@ -30,15 +30,17 @@ $ npm test
 
 ## Usage
 
-See the full example in `'./builder.spec.js'`.
+Build a complex `message` object by filling fields in independent steps - `withTitle()`, `withBody()`, etc. Call building functions in any order.
+
+`pipe()` simplifies passing parameters without temporary variables. `build()` in the end is for consistency and helps to detect the Builder pattern.
+
+See the full example in `./builder.spec.js`.
 
 ```javascript
   const message = pipe(
     withTitle({ title: 'test title' }),
     withBody({ body: 'test body' }),
     withPriority({ priority: 'high' }),
-    withImageUrl({ url: '1.jpg' }),
-    withImageResolution({ resolution: '1080p' }),
     build,
   )(emptyMessage)
 
