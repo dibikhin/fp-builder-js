@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Example of the Builder pattern in functional style",
   "scripts": {
-    "test": "mocha --recursive './**/*.spec.js'"
+    "test": "mocha builder.spec.js"
   },
   "keywords": [
     "functional-programming",
