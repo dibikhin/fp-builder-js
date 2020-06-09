@@ -5,7 +5,7 @@
 'use strict'
 
 const {
-  mergeDeepRight,
+    mergeDeepRight,
 } = require('ramda')
 
 /**
@@ -16,11 +16,11 @@ const {
  * @param {object} params.diff - a diff for evolving the target object
  * @returns {object} - evolved object
  */
-function evolve({ before, diff }) {
-  const merged = mergeDeepRight(before, diff)
-  return Object.freeze(merged)
+function evolve({ before, diff, }) {
+    const merged = mergeDeepRight(before, diff)
+    return Object.freeze(merged)
 }
 
 module.exports = {
-  evolve,
+    evolve,
 }
