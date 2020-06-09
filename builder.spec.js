@@ -1,5 +1,5 @@
 /**
- * Builder pattern specs
+ * Specs of the Builder pattern
  */
 
 'use strict'

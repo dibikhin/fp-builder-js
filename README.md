@@ -30,9 +30,9 @@ $ npm test
 
 ## Usage
 
-Build a complex `message` object by filling fields in independent steps - `withTitle()`, `withBody()`, etc. Call building functions in any order.
+Build a complex `message` object by filling fields in independent steps - `withTitle()`, `withBody()`, etc. Can call building functions in any order.
 
-`pipe()` simplifies passing parameters without temporary variables. `build()` in the end is for consistency and helps to detect the Builder pattern.
+`pipe()` simplifies passing parameters without temporary variables. `build()` in the end is for consistency and helps with identifying the Builder pattern.
 
 See the full example in `./builder.spec.js`.
 
@@ -60,12 +60,12 @@ Thanks to:
 - Peter Norvig and Scott Wlaschin for inspiration
 
 ## Links
-- [The Builder Pattern in JavaScript](https://medium.com/better-programming/the-builder-pattern-in-javascript-6f3d85c3ae4a) - an article about an OOP version
+- [The Builder Pattern in JavaScript](https://medium.com/better-programming/the-builder-pattern-in-javascript-6f3d85c3ae4a) - An article about someone's OOP version
 - [Ramda](https://ramdajs.com) - A practical functional library for JavaScript programmers
 - [Mocha](https://mochajs.org) - A feature-rich JavaScript test framework 
 - [Chai](https://www.chaijs.com) - A BDD / TDD assertion library
 - [Source Making](https://sourcemaking.com) - A free catalog of Design Patterns, AntiPatterns, and Refactorings
-- [F# for fun and profit](https://fsharpforfunandprofit.com) - an inspiring and easy-to-read blog about Functional Programming
+- [F# for fun and profit](https://fsharpforfunandprofit.com) - An inspiring and addictive blog about Functional Programming
 
 ## License
 [MIT](LICENSE)

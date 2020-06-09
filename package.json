@@ -1,7 +1,7 @@
 {
   "name": "fp-builder-js",
   "version": "1.0.0",
-  "description": "Example of Builder pattern in functional style",
+  "description": "Example of the Builder pattern in functional style",
   "scripts": {
     "test": "mocha --recursive './**/*.spec.js'"
   },
