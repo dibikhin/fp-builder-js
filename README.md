@@ -30,7 +30,7 @@ $ npm test
 
 ## Usage
 
-Build a complex `message` object by filling fields in independent steps - `withTitle()`, `withBody()`, etc. Can call building functions in any order.
+Build a complex `message` object by filling fields one by one in independent steps - `withTitle()`, `withBody()`, etc. Can call the building steps in any order.
 
 `pipe()` simplifies passing parameters without temporary variables. `build()` in the end is for consistency and helps with identifying the Builder pattern.
 

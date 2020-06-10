@@ -10,7 +10,7 @@ const {
 
 /**
  * Evolves an object by merging with diff.
- * Makes possible to call Builder's steps in any order
+ * Makes possible to call the Builder's steps in any order
  *
  * @param {object} params
  * @param {object} params.before - a target object to evolve
