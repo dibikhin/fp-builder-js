@@ -23,7 +23,7 @@
     "eslint-plugin-import": "^2.21.1",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
-    "mocha": "^7.1.2"
+    "mocha": "^10.2.0"
   },
   "dependencies": {
     "ramda": "^0.27.0"
